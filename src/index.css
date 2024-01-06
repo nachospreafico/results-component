@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Hanken;
+  src: url("./assets/assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+body {
+  font-family: Hanken;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#score {
+  background: rgb(103, 67, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(103, 67, 255, 1) 0%,
+    rgba(50, 41, 236, 1) 100%
+  );
+}
+
+#score-circle {
+  background: rgb(77, 34, 201);
+  background: linear-gradient(
+    180deg,
+    rgba(77, 34, 201, 1) 0%,
+    rgba(71, 52, 240, 1) 100%
+  );
+}
+
+#Reaction {
+  background-color: rgb(255, 238, 235);
+}
+
+#Memory {
+  background-color: hsl(42, 100%, 96%);
+}
+
+#Verbal {
+  background-color: hsl(167, 100%, 96%);
+}
+
+#Visual {
+  background-color: hsl(233, 100%, 96%);
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+    padding: 280px 0 280px 0;
+  }
+}
