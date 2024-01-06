@@ -20,7 +20,7 @@ const Summary = ({ summaryData }) => {
           );
         })}
       </div>
-      <button className="w-full py-4 text-[18px] text-white font-medium bg-[#303b5a] rounded-full mt-8">
+      <button className="w-full py-4 text-[18px] text-white font-medium bg-[#303b5a] rounded-full mt-8 duration-200 lg:hover:bg-gradient-to-t from-indigo-700 to-indigo-500">
         Continue
       </button>
     </div>
